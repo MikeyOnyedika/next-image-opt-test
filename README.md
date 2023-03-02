@@ -3,7 +3,7 @@ checking out the nextjs Image component to see how much optimisation it does for
 
 Images were loaded using unsplash API 
 ## To run project
-- `git clone` into your repo
+- `git clone` this repo
 - create a `.env` file in the project root and make the following entry inside the empty file
 ```
 ACCESS_KEY=<provide your actual access key>
