@@ -12,4 +12,5 @@ Sorry, I won't be sharing my access key with you. So, you'll have to setup an ac
 - `npm install` to install dependencies
 - `npm run dev` to run dev server
 - navigate to `http://localhost:3000`
-- open your dev tools and navigate to network tab. You can set the value of `mode` to `raw` to render the images using regular html `<img />` or to `optimised` to render with nextjs' `<Image />` component. Then, observe the image sizes and the lazy-loading feature this awesome component provides
+- open your dev tools and navigate to network tab to observe the changes in image size, format and loading strategy. 
+- You can set the value of `mode` variable (inside the index page component) to `raw` to render the images using regular html `<img />` or to `optimised` to render with nextjs' `<Image />` component. Then, observe the image sizes and the lazy-loading feature this awesome component provides
